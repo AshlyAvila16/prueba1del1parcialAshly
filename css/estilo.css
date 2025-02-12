@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: url('background.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px 50px;
+    padding-bottom: 100px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: colorChange 3s infinite;
+    padding-top: 100px;
+}
+
+
+@media (max-width: 756px) {
+    .hero h1 {
+        color: black;
+        animation: none; 
+    }
+}
+
+@keyframes colorChange {
+    0% { color: blue; }
+    50% { color: red; }
+    100% { color: green; }
+}
+
+.about_us img {
+    width: 50px;
+    margin-bottom: 100px;
+}
+
+.clientes img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.call_to_action {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+.subscribe-section {
+    background: url('background.jpg') center/cover no-repeat;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.subscribe-section input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.subscribe-section button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.piedepagina img {
+    width: 30px;
+    margin: 10px;
+}
